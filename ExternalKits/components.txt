@@ -1,0 +1,17 @@
+LCD-näyttölevy
+http://www.tietopetri.fi/data/lcd.pdf
+http://www.tietopetri.fi/data/klcd.pdf
+
+
+3D-levy Joystick
+http://www.tietopetri.fi/data/3d.pdf
+http://www.tietopetri.fi/data/k3d.pdf
+
+Näppäimistölevy
+http://www.tietopetri.fi/data/nappis.pdf
+http://www.tietopetri.fi/data/knappis.pdf
+
+
+JTAG/SW http://www.atmel.com/webdoc/jtagice3/jtagice3.using_ocd_physical_jtag.html#jtagice3.jtag_header_pinout
+
+

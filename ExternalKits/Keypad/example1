@@ -1,0 +1,14 @@
+/* Scan pressed key and print to serial monitor */
+
+#include "keypad.h"
+
+void setup() {
+  keypad_init(100); // 0 ~ 350
+  Serial.begin(9600);
+}
+
+void loop() {  
+  scan_input_debug();
+  Serial.println();Serial.println();Serial.println();Serial.println();Serial.println();
+  delay(200);        
+}

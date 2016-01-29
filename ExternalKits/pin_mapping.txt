@@ -1,0 +1,8 @@
+Adapteri Port C to ARDUINO pin mapping
+
+
+J1 -> 2	 J2 -> A0
+J3 -> 3	 J4 -> A1
+J5 -> 4	 J6 -> A2
+J7 -> 5  J8 -> GND	 
+J9 -> A3 J10-> VCC

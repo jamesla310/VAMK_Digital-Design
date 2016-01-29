@@ -1,0 +1,18 @@
+Keypad / Näppäimistölevy 
+
+Keypad is connected to ARDUINO Mega2560 with/without adapter. When a key is pressed, analog signal is sent to ARDUINO and digitized. 
+
+Files:
+  keypad.h contains pin mapping configuration and function prototypes 
+  keypad.cpp contains function implementations
+
+Functions definitions:
+
+   char scan_input(void): 
+   	Function scan key press from col1 to col4, row1 to row4 once and return pressed character if the pressing value is greater than sensitivity threshold or '\0' if no pressing character found. 
+
+   void scan_input_debug(void): 
+   	Function scans key pressing from col1 to col4, row1 to row4 once and return raw pressing values.  
+
+   void keypad_init(int sensitivity): 
+   	Function initlaize pin mode, according definition in keypad.h by setting all column pins to digital output and all row pins to analog input. It takes one parameter as threshold sensitivity. 
