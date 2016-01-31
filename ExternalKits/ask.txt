@@ -1,0 +1,4 @@
+Adapter:
+
+Button/Kytkinevy:
+ - Power supply?

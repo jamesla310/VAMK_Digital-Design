@@ -1,0 +1,12 @@
+#include "switches.h"
+
+void setup() {  
+  switches_init(50);
+  Serial.begin(9600);
+}
+
+void loop() {  
+  scan_input_debug();
+  Serial.println();Serial.println();
+  delay(500);
+}

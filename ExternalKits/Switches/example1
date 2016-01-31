@@ -1,0 +1,14 @@
+#include "switches.h"
+
+void setup() {
+  switches_init(50);
+  Serial.begin(9600);
+}
+
+void loop() { 
+  int c = scan_input();
+  if (c != -1)
+      Serial.print(c);
+  
+  delay(200);
+}

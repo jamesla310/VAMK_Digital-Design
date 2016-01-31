@@ -1,0 +1,3 @@
+*Notes:
+
+When SW is pressed, readAnalog form corresponding button returns 0, while releasing, it returns ~ 300

@@ -16,3 +16,14 @@ Functions definitions:
 
    void keypad_init(int sensitivity): 
    	Function initlaize pin mode, according definition in keypad.h by setting all column pins to digital output and all row pins to analog input. It takes one parameter as threshold sensitivity. 
+
+
+
+
+Notes:
+
+digitalWrite(pin, HIGH) outputs 5.05V
+
+when key is pressed, corresponding [row,col] returns 4.83V, the other in the same row returns ~ 1V. 
+
+Connect to ARDUINO pin, only 1.67V is measured. 1.67/5*1024 = 340 as readed value

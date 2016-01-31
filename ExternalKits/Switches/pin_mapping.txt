@@ -1,0 +1,16 @@
+	Left	Right
+S0 	J1-1	J4-1
+S1	J1-3	J4-3
+S2	J1-5	J4-5
+S3	J1-7	J4-7
+S4	J1-9	J4-9
+S5	J1-2	J4-2
+S6	J1-4	J4-4
+S7	J1-6	J4-6
+
+
+Jx-1 A0		Jx-2 A5
+Jx-3 A1		Jx-4 A6
+Jx-5 A2		Jx-6 A7
+Jx-7 A3		Jx-8	GND
+Jx-9 A4		Jx-10	VCC
