@@ -1,0 +1,15 @@
+#include "rs232.h"
+
+void setup() {  
+  Serial.begin(9600);
+  rs232_init();
+  write_string("Hello World!\r\n");
+}
+
+
+
+void loop()
+{
+    Serial.print((char)read_char());    
+    delay(200);
+}

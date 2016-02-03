@@ -1,3 +1,10 @@
 
 TX - A1 - J1-3 - 3 (In)
 RX - A0 - J1-1 - 2 (Out)
+
+
+J1-1 A0	TX	J2-2  A5
+J1-3 A1	Rx	J2-4  A6
+J1-5 A2 	J2-6  A7
+J1-7 A3 	J2-8  GND
+J1-9 A4 	J2-10 VCC

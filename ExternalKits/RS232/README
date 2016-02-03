@@ -1,0 +1,28 @@
+RS232 / RS232 levy 
+
+Keypad is connected to ARDUINO Mega2560 with/without adapter. When a key is pressed, analog signal is sent to ARDUINO and digitized. 
+
+RS232 provides reliable communication protocol. The kit is connected to ARDUINO with TX and RX pins. 5V VCC and GND is required for RS232 kit. 
+
+Files:
+  rs232.h contains pin mapping configuration, bitrate, and function prototypes 
+  rs232.cpp contains function implementations
+
+Functions definitions:
+
+   void rs232_init()	  
+      	Function initalizes RX and TX pins of ARDUINO
+
+   void write_char(int data)
+   	Funtion sends a character with "9600/8n1" setting
+
+   void write_string(char const * data)
+   	Function sends a string (terminated with '\0') with "9600/8n1" setting.
+
+ 
+   int read_char()
+       Function reads received character and returns an integer value (ASCII)
+
+
+
+
