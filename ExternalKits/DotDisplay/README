@@ -1,6 +1,6 @@
 
 IC 7442: 4-Line BCD to 10-Line Decimal Decoders
-
+http://www.ti.com/lit/ds/symlink/sn74ls42.pdf
 
 BCD			Decimal
 B3-B2-B1-B0	  Low		High = Others
@@ -18,4 +18,5 @@ INVALID
 
 
 IC ULN2809: Darlington transistor array
+http://www.ti.com/lit/ds/symlink/uln2803a.pdf
 
