@@ -9,5 +9,7 @@ Contact: e1300509@edu.vamk.fi
 Implementation of ARDUINO Mega2560 with external kits:
   - Keypad / Näppäimistölevy
   - RS232 adapter / RS232 levy
+  - Switches / kytkinlevy
+  - Opto / optolevy
   - 
 
