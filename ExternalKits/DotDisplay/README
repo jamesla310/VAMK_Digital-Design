@@ -1,22 +1,59 @@
+# Dot Matrix Display / DOT-matriisinäytöt
 
-IC 7442: 4-Line BCD to 10-Line Decimal Decoders
-http://www.ti.com/lit/ds/symlink/sn74ls42.pdf
+Matrix display is connected to ARDUINO Mega2560. 
 
-BCD			Decimal
-B3-B2-B1-B0	  Low		High = Others
-L L L L		  0		
-L L L H		  1
-L L H L		  2
-L L H H 	  3
-L H L L 	  4
-L H L H 	  5
-L H H L		  6
-L H H H 	  7
-H L L L 	  8
-H L L H		  9
-INVALID
+## Devices:
+   - ARDUINO Mega2560
+   - Tietopetri DOT-matriisinäytöt
+     		IC 7442: 4-Line BCD to 10-Line Decimal Decoders
+		http://www.ti.com/lit/ds/symlink/sn74ls42.pdf
+
+		BCD			Decimal
+		B3-B2-B1-B0	  Low		High = Others
+		L L L L		  0		
+		L L L H		  1
+		L L H L		  2
+		L L H H 	  3
+		L H L L 	  4
+		L H L H 	  5
+		L H H L		  6
+		L H H H 	  7
+		H L L L 	  8
+		H L L H		  9
+		INVALID
 
 
-IC ULN2809: Darlington transistor array
-http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+		IC ULN2809: Darlington transistor array
+		http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+
+
+## Files:
+   - dot_display.h contains pin definition, configuration and function prototypes
+   - dot_display.cpp contains function implementations
+
+## Function definitions:
+   void dot_display_init():
+   	Function configures pins directions.
+
+	
+  void setQ(char const *Q_val)
+       Select column of point to print. To select column, B3-B2-B1-B0 is assigned to predefined char array. Read the docs/dot.pdf for more information.
+
+  void draw_point(uint8_t x, uint8_t y)
+       Function takes two 8-bit integer as x,y coordinates. 
+       - Coordinates is defined that (0,0) is top-left and (9,6) is bottom-right
+       - Drawing a point includes selecting column (Q value) and set RC to HIGH. Drawing next point in another column will move point in old column to new column (as Q value changed, and RC is still HIGH).
+       
+  void blink_point(uint8_t x, uint8_t y, uint16_t delay_time)
+       Same function as draw_point, except that RC value is turned to LOW after delay_time microseconds
+
+  void clear_point(uint8_t x, uint8_t y)
+       Function clear a point by setting RC value to LOW
+
+
+## USE: 
+- Create new proj in ARDUINO IDE
+- Move .cpp and .h files to same folder
+- Copy and replace exampleX file to main file
+
 

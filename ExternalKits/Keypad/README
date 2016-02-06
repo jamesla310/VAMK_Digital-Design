@@ -7,10 +7,10 @@ Keypad is connected to ARDUINO Mega2560 with/without adapter. When a key is pres
    - Tietopetri Näppäimistölevy 
 
 ## Files:
-  keypad.h contains pin mapping configuration and function prototypes 
+  keypad.h contains pin definition configuration and function prototypes 
   keypad.cpp contains function implementations
 
-Functions definitions:
+## Functions definitions:
 
    char scan_input(void): 
    	Function scan key press from col1 to col4, row1 to row4 once and return pressed character if the pressing value is greater than sensitivity threshold or '\0' if no pressing character found. 
