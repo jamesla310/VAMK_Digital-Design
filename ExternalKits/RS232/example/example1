@@ -1,3 +1,6 @@
+// Send "Hello Wolrd!\r\n" in the beginning of application
+// print received character (typing in teraterm for e.g) to Serial Monitor
+
 #include "rs232.h"
 
 void setup() {  

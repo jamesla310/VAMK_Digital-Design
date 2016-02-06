@@ -1,5 +1,9 @@
-5V is connected to OP+
-GND is connected to OP-
+# Optolevy
+
+## Use
+
+- 5V is connected to OP+
+- GND is connected to OP-
 
 VCC -> VCC
 GND -> GND

@@ -1,0 +1,21 @@
+
+IC 7442: 4-Line BCD to 10-Line Decimal Decoders
+
+
+BCD			Decimal
+B3-B2-B1-B0	  Low		High = Others
+L L L L		  0		
+L L L H		  1
+L L H L		  2
+L L H H 	  3
+L H L L 	  4
+L H L H 	  5
+L H H L		  6
+L H H H 	  7
+H L L L 	  8
+H L L H		  9
+INVALID
+
+
+IC ULN2809: Darlington transistor array
+

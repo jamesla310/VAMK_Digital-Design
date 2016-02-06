@@ -1,3 +1,5 @@
+// Print number of pressed button (0 - 7)
+
 #include "switches.h"
 
 void setup() {

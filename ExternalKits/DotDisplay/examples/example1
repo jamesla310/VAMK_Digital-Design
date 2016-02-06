@@ -1,0 +1,22 @@
+// Print point and clear point
+
+#include "dot_display.h"
+
+void setup() {
+  dot_display_init();
+}
+
+
+int x_val = 0;
+int y_val = 0;
+
+void loop() {
+  
+  draw_point(x_val, y_val);
+  delay(200);
+  clear_point(x_val, y_val);
+  
+  if (++y_val == 7) y_val = 0;
+  if (++x_val == 10) x_val = 0;
+  
+}

@@ -1,5 +1,7 @@
 Litte endian
 
+From - To - ARDUINO pin
+
 PORTC:
 
 J1-1 J4-5	J1-2 J4-0

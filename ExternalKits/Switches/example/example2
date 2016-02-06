@@ -1,3 +1,5 @@
+// Print raw input of analogRead()
+
 #include "switches.h"
 
 void setup() {  

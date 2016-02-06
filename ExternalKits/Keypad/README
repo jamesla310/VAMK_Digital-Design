@@ -1,8 +1,12 @@
-Keypad / Näppäimistölevy 
+# Keypad / Näppäimistölevy 
 
 Keypad is connected to ARDUINO Mega2560 with/without adapter. When a key is pressed, analog signal is sent to ARDUINO and digitized. 
 
-Files:
+## Devices:
+   - ARDUINO Mega2560
+   - Tietopetri Näppäimistölevy 
+
+## Files:
   keypad.h contains pin mapping configuration and function prototypes 
   keypad.cpp contains function implementations
 
@@ -19,11 +23,16 @@ Functions definitions:
 
 
 
+## Notes:
 
-Notes:
+- digitalWrite(pin, HIGH) outputs 5.05V
+- when key is pressed, corresponding [row,col] returns 4.83V, the other in the same row returns ~ 1V. 
 
-digitalWrite(pin, HIGH) outputs 5.05V
+- Connect to ARDUINO pin, only 1.67V is measured. 1.67/5*1024 = 340 as readed value
+- Row pin must connect to analog ARDUINO pins
 
-when key is pressed, corresponding [row,col] returns 4.83V, the other in the same row returns ~ 1V. 
-
-Connect to ARDUINO pin, only 1.67V is measured. 1.67/5*1024 = 340 as readed value
+## USE: 
+- Create new proj in ARDUINO IDE
+- Move .cpp and .h files to same folder
+- Copy and replace exampleX file to main file
+     

@@ -1,3 +1,5 @@
+// Send pressed character from keypad 
+
 #include "keypad.h"
 #include "rs232.h"
 
