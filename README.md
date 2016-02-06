@@ -11,5 +11,5 @@ Implementation of ARDUINO Mega2560 with external kits:
   - RS232 adapter / RS232 levy
   - Switches / kytkinlevy
   - Opto / optolevy
-  - 
+  - Dot matrix display /DOT-matriisinäytöt
 
