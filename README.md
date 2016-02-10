@@ -15,3 +15,5 @@ Implementation of ARDUINO Mega2560 with external kits:
   - Opto / optolevy
   - Dot matrix display /DOT-matriisinäytöt
   
+http://fi.farnell.com/amphenol/t821110a1s100ceu/header-vertical-2-54mm-10way/dp/2215304?MER=bn-me-hp-mi-reco-2215304
+Tilauskoodi: 2215304
