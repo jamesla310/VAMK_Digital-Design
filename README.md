@@ -4,12 +4,14 @@ Course study with ARDUINO Mega2560
 Author: Son La
 Contact: e1300509@edu.vamk.fi
 
-[*]The implementation is not finished yet
+### [*]The implementation is not finished yet
 
 Implementation of ARDUINO Mega2560 with external kits:
+  http://www.tietopetri.fi/
+  - Adapter / Adapteri
   - Keypad / Näppäimistölevy
   - RS232 adapter / RS232 levy
   - Switches / kytkinlevy
   - Opto / optolevy
   - Dot matrix display /DOT-matriisinäytöt
-
+  
