@@ -1,8 +1,26 @@
 Switches / Kytkinlevy
 
-Switches pad is 
+8-pressed-button kit is connected to ARDUINO Mega2560. 
+
+## Devices:
+   - ARDUINO Mega2560
+   - Tietopetri Kytkinlevy
+
+## Files:
+   - switches.h contains pin mapping between ARDUINO pin - SW and functions prototypes
+   - switches.cpp contains function implementation
+
+## Function definitions:
+   void switches_init(int sensitivity)
+   	Initialize pins direction
+   int scan_input(void)
+       Scan inputs from S0 to S7, returns a value [0 .. 7] corressponding to pressed switch, or -1 if no switches is pressed. 
+   void scan_input_debug(void)
+       Scan inputs from S0 to S7 and print to serial monitor with 0 is pressed and 1 is not pressed.
+   
 
 
 *Notes:
 
-When SW is pressed, readAnalog form corresponding button returns 0, while releasing, it returns ~ 300
+Configure pin in switches.h
+For the use of scan_input_debug(), avoid using pins 0 and 1

@@ -4,14 +4,14 @@
 #include <Arduino.h>
 #include <HardwareSerial.h>
 
-#define SW0 A0
-#define SW1 A1
-#define SW2 A2 
-#define SW3 A3
-#define SW4 A4
-#define SW5 A5
-#define SW6 A6
-#define SW7 A7
+#define SW0 8
+#define SW1 9
+#define SW2 10
+#define SW3 11
+#define SW4 12
+#define SW5 13
+#define SW6 14
+#define SW7 15
 
 #define NUMKEY 8
 
@@ -21,7 +21,7 @@
 extern "C" {
 #endif
 
-void switches_init(int sensitivity);
+void switches_init(void);
 int scan_input(void);
 void scan_input_debug(void);
 

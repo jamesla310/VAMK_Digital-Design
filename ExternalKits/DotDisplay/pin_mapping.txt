@@ -1,16 +1,28 @@
+Dot-pad pinname -  JTAG  - ARDUINO pin
+
+B0		   J2-1	   0
+B1		   J2-3	   1
+B2		   J2-5	   2
+B3		   J2-7	   3
 
 
-B0	J2-1
-B1	J2-3
-B2	J2-5
-B3	J2-7
+Dot-pad pinname -  JTAG	 - RC
+A0		   J1-1    8
+A1		   J1-3	   9
+A2		   J1-5	   10
+A3		   J1-7	   11
+A4		   J1-9	   12
+-----------------------
+A5		   J1-2	   13
+A6		   J1-4	   14
 
-A0	J1-1	A5	J1-2	
-A1	J1-3	A6	J1-4
-A2	J1-5
-A3	J1-7
-A4	J1-9
 
+
+
+
+
+
+B combination - Q value
 B3 B2 B1 B0	Q
 0  0  0	 0	1
 0  0  0	 1	2
@@ -22,6 +34,7 @@ B3 B2 B1 B0	Q
 0  1  1	 1	8
 1  0  0	 0	9
 1  0  0	 1	10
+
 
 A     RC
 0     1		

@@ -9,10 +9,11 @@ void setup() {
 
 void loop() {
   
-  char c = scan_input();
-  if (c != '\0')
-     Serial.print(c);
-  
+  //char c = scan_input();
+  //if (c != '\0')
+     //Serial.print(c);
+  scan_input_debug();
+  Serial.println();Serial.println();Serial.println();Serial.println();
   delay(200);       
 }
 

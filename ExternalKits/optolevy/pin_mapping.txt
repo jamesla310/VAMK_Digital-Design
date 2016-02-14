@@ -1,8 +1,0 @@
-J1-1 L1		J1-2  H2
-J1-3 L2		J1-4  H3
-J1-5 L3		J1-6  H4
-J1-7 L4		J1-8  GND
-J1-9 H1		J1-10 VCC
-
-H for High
-L for Low

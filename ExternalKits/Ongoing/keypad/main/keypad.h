@@ -24,15 +24,15 @@
 // Row 4 : A B C D
 
 /* Pin mapping */
-#define COL1 2 
-#define COL2 3
-#define COL3 4
-#define COL4 5
+#define COL1 A0 
+#define COL2 A1
+#define COL3 A2
+#define COL4 A3
 
-#define ROW1 A0
-#define ROW2 A1
-#define ROW3 A2
-#define ROW4 A3
+#define ROW1 A5
+#define ROW2 A6
+#define ROW3 A7
+#define ROW4 A4
 
 
 
@@ -51,3 +51,4 @@ void scan_input_debug(void);
 #endif
 
 #endif
+

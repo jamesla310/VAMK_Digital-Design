@@ -3,18 +3,18 @@
 
 #include <Arduino.h>
 
-#define B_0 31  
-#define B_1 33
-#define B_2 35
-#define B_3 37  
+#define B_0 0  
+#define B_1 1
+#define B_2 2
+#define B_3 3  
 
-#define RC1 30
-#define RC2 32
-#define RC3 34
-#define RC4 36
-#define RC5 38
-#define RC6 40 
-#define RC7 42
+#define RC1 8
+#define RC2 9
+#define RC3 10
+#define RC4 11
+#define RC5 12
+#define RC6 13 
+#define RC7 14
 
 
 #define Q1 "0000"

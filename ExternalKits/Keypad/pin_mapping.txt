@@ -1,9 +1,9 @@
 Adapteri Port C to ARDUINO pin mapping
 
-Keypad -> ARDUINO Keypad -> ARDUINO
+Keypad -> Function -> ARDUINO  	       Keypad -> Function -> ARDUINO
 
-J1 -> 2	 J2 -> A0
-J3 -> 3	 J4 -> A1
-J5 -> 4	 J6 -> A2
-J7 -> 5  J8 -> GND	 
-J9 -> A3 J10-> VCC
+J1 - col1 - A0	  		       J2 - row1 - A5
+J3 - col2 - A1			       J4 - row2 - A6
+J5 - col3 - A2	 		       J6 - row3 - A7
+J7 - col4 - A3			       J8 - GND  - GND	 
+J9 - row4 - A4 			       J10- VCC	 - VCC
