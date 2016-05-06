@@ -8,4 +8,4 @@
 VCC -> VCC
 GND -> GND
 
-Coressponding JTAG output LOW(0V) while the rest output HIGH (5V)
+Coressponding 2x5 pin is LOW(0V) while the rest output HIGH (5V)
