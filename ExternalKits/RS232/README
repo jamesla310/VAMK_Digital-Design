@@ -1,7 +1,5 @@
 # RS232 / RS232 levy 
 
-Keypad is connected to ARDUINO Mega2560 with/without adapter. When a key is pressed, analog signal is sent to ARDUINO and digitized. 
-
 RS232 provides reliable communication protocol. The kit is connected to ARDUINO with TX and RX pins. 5V VCC and GND is required for RS232 kit. 
 
 ## Files:
